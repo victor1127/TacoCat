@@ -1,19 +1,19 @@
 :root
 {
-    --primary-color:whitesmoke;
-    --secondary-color:#BF988A;
-    --third-color:#A66F5B;
+    --primary-color:white;
+    --secondary-color:#F9B208;
+    --third-color:#323232;
     --dark-gray-color:#323232;
 }
 
 body
 {
-    background:var(--primary-color);
+    background: var(--primary-color);
 }
 
 nav
 {
-    background: var(--dark-gray-color);
+    background: linear-gradient(to right,rgba(41, 29, 19, 0.8),rgba(194, 101, 101, 0.8));
 }
 
 .navimg
@@ -24,10 +24,13 @@ nav
     overflow: auto;
 }
 
-h1,h2,h3,h4,h5,h6
+h1
 {
     color:var(--secondary-color)
-
+}
+h2,h3,h4,h5,h6
+{
+    color:var(--dark-gray-color)
 }
 
 
@@ -44,7 +47,7 @@ main>.container {
 
 footer
 {
-    background: var(--dark-gray-color);
+    background: linear-gradient(to left,rgba(41, 29, 19, 0.8),rgba(194, 101, 101, 0.8));
     padding-right: 1rem;
 }
 
@@ -72,7 +75,7 @@ footer
 }
 .checklist span
 {
-    color:var(--secondary-color)
+    color:var(--dark-gray-color)
 }
 
 code[class*="language-"], pre[class*="language-"]
@@ -88,3 +91,4 @@ code[class*="language-"], pre[class*="language-"]
     font-size: 3em;
 
 }
+
