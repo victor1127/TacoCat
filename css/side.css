@@ -49,6 +49,7 @@ footer
 {
     background: linear-gradient(to left,rgba(41, 29, 19, 0.8),rgba(194, 101, 101, 0.8));
     padding-right: 1rem;
+    margin-top: 20px;
 }
 
 .icon
@@ -91,4 +92,25 @@ code[class*="language-"], pre[class*="language-"]
     font-size: 3em;
 
 }
+
+
+.colheight
+{
+  height: 300px;
+}
+
+@media (max-width:375px)
+{
+    .colheight
+    {
+        height: 120px;
+    }
+}
+
+.bt
+{
+    background: #d69a0e;
+    color:whitesmoke;
+}
+
 
