@@ -113,4 +113,10 @@ code[class*="language-"], pre[class*="language-"]
     color:whitesmoke;
 }
 
+.resultbg
+{
+    color: darkred;
+    font-weight: bold;
+}
+
 
